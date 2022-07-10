@@ -1,9 +1,16 @@
 /* All Imports and Global Variables */
 @import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
 
 html{ scroll-behavior: smooth; }
-body{ margin: 0; background-color: red; }
+body{
+    margin: 0;
+    background-color: tan;
+    background-position: center;
+    background-size: contain;
+}
 
 /* Navigation bar Part Starts Here */
 
@@ -73,10 +80,53 @@ body{ margin: 0; background-color: red; }
 
 /* About Page Part Starts Here */
 
-#about
+#about { height: 100vh; display: flex }
+
+#abt_body
 {
-    height: 100vh;
-    background-color: blueviolet;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    margin: auto;
+
+    width: 94%;
+    height: 86%;
+}
+
+#abt_img
+{
+    width: 30%;
+    height: 95%;
+    background-image: url("Images/abt img.jpg");
+    background-size: cover;
+}
+
+#abt_content
+{
+
+    width: 60%;
+    height: 95%;
+
+}
+
+#abt
+{
+    margin: auto;
+    width: fit-content;
+
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-size: 5rem;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#abt_info
+{
+    margin-top: 12%;
+
+    font-family: 'Baloo 2', cursive;
+    font-size: 2.2rem;
+    text-align: justify;
 }
 
 /* About Page Part Part Ends Here */
@@ -86,8 +136,9 @@ body{ margin: 0; background-color: red; }
 
 #portfolio
 {
+
     height: 100vh;
-    background-color: chartreuse;
+
 }
 
 /* Portfolio Page Part Part Ends Here */
@@ -97,8 +148,9 @@ body{ margin: 0; background-color: red; }
 
 #contact
 {
+
     height: 100vh;
-    background-color: deeppink;
+
 }
 
 /* Contact Page Part Part Ends Here */
