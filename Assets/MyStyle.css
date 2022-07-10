@@ -1,0 +1,76 @@
+/* All Imports and Global Variables */
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500&display=swap');
+
+html{ scroll-behavior: smooth; }
+body{ margin: 0; background-color: red; }
+
+/* Navigation bar Part Starts Here */
+
+#nav_bar
+{
+    position: fixed;
+    width: 100% ;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: antiquewhite;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-size: 20px;
+    background-color: rgba(56, 56, 56, 0.87);
+}
+
+#nbc1 { margin-left: 5%; }
+#nbc1 p { font-size: 30px; }
+
+#nbc2 { margin-right: 5%; }
+#list li { margin: 0 20px; display: inline; }
+#list a  { color: antiquewhite; text-decoration: none; transition: 250ms; }
+#list a:hover { color: chartreuse; }
+
+/* Navigation bar Part Ends Here */
+
+
+/* Home Page Part Starts Here */
+
+#home
+{
+    height: 100vh;
+
+}
+
+/* Home Page Part Part Ends Here */
+
+
+/* About Page Part Starts Here */
+
+#about
+{
+    height: 100vh;
+    background-color: blueviolet;
+}
+
+/* About Page Part Part Ends Here */
+
+
+/* Portfolio Page Part Starts Here */
+
+#portfolio
+{
+    height: 100vh;
+    background-color: chartreuse;
+}
+
+/* Portfolio Page Part Part Ends Here */
+
+
+/* Contact Page Part Starts Here */
+
+#contact
+{
+    height: 100vh;
+    background-color: deeppink;
+}
+
+/* Contact Page Part Part Ends Here */
