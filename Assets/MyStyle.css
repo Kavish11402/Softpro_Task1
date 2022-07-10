@@ -1,5 +1,6 @@
 /* All Imports and Global Variables */
 @import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
 
 html{ scroll-behavior: smooth; }
 body{ margin: 0; background-color: red; }
@@ -34,10 +35,37 @@ body{ margin: 0; background-color: red; }
 
 /* Home Page Part Starts Here */
 
-#home
-{
+#home {
+    background-image: url("Images/final image.jpg");
     height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
 
+#home_text
+{
+    height: fit-content;
+    width: fit-content;
+    font-family: 'Lobster Two', cursive;
+    font-size: 7rem;
+    margin-right: 4%;
+    line-height: 50px;
+}
+
+#home_up
+{
+    display: inline;
+    margin: 0;
+}
+
+#home_down
+{
+
+
+    text-align: center;
+    text-decoration: underline;
+    font-size: 3rem;
 }
 
 /* Home Page Part Part Ends Here */
